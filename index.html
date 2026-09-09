@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gamer Profile | TheFoxy547</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Navegación -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <span class="logo">THEFOXY547 // GAMING</span>
+            <ul class="nav-links">
+                <li><a href="#about">Sobre Mí</a></li>
+                <li><a href="#games">Mis Juegos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Header / Sobre Mí -->
+    <header id="about" class="hero">
+        <div class="hero-container">
+            <span class="section-number">01 · JUGADOR Y APASIONADO</span>
+            <h1>Apasionado por la estrategia, la exploración y las grandes historias.</h1>
+            <p class="bio-text">
+                ¡Hola! Soy <strong>TheFoxy547</strong>. En el mundo del gaming me enfoco en perfeccionar la precisión táctica, disfrutar mundos abiertos llenos de creatividad y sumergirme en narrativas épicas de acción.
+            </p>
+            <div class="hero-stats">
+                <div class="stat-item">
+                    <span class="stat-number">5</span>
+                    <span class="stat-label">Main Games</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">100%</span>
+                    <span class="stat-label">Gamer Passional</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">PC / Console</span>
+                    <span class="stat-label">Plataformas</span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Galería de Juegos Favoritos -->
+    <section id="games" class="section border-top">
+        <div class="section-container">
+            <h2>02 · JUEGOS FAVORITOS</h2>
+            <div class="grid-3">
+                
+                <!-- Valorant -->
+                <div class="card">
+                    <div class="card-img-wrapper">
+                        <img src="images/valorant.jpg" alt="Valorant" onerror="this.src='https://picsum.photos/400/220?random=1'">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-tag">SHOOTER TÁCTICO</span>
+                        <h3>Valorant</h3>
+                        <p>Trabajo en equipo, precisión en el apuntado y uso estratégico de habilidades en partidas competitivas de ritmo alto.</p>
+                    </div>
+                </div>
+
+                <!-- Minecraft -->
+                <div class="card">
+                    <div class="card-img-wrapper">
+                        <img src="images/minecraft.jpg" alt="Minecraft" onerror="this.src='https://picsum.photos/400/220?random=2'">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-tag">SANDBOX / SUPERVIVENCIA</span>
+                        <h3>Minecraft</h3>
+                        <p>Creatividad sin límites, construcción de proyectos masivos y supervivencia explorando mundos infinitos con amigos.</p>
+                    </div>
+                </div>
+
+                <!-- God of War -->
+                <div class="card">
+                    <div class="card-img-wrapper">
+                        <img src="images/godofwar.jpg" alt="God of War" onerror="this.src='https://picsum.photos/400/220?random=3'">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-tag">ACCIÓN / MITOLOGÍA</span>
+                        <h3>God of War</h3>
+                        <p>Combate visceral, narrativa profunda de la mitología nórdica e increíble calidad cinematográfica en cada combate.</p>
+                    </div>
+                </div>
+
+                <!-- PEAK -->
+                <div class="card">
+                    <div class="card-img-wrapper">
+                        <img src="images/peak.jpg" alt="PEAK" onerror="this.src='https://picsum.photos/400/220?random=4'">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-tag">COOPERATIVO / ESCALADA</span>
+                        <h3>PEAK</h3>
+                        <p>Aventura cooperativa de escalada donde un grupo de exploradores perdidos debe ascender montañas peligrosas trabajando en equipo para ser rescatados.</p>
+                    </div>
+                </div>
+
+                <!-- Escape the Backrooms -->
+                <div class="card">
+                    <div class="card-img-wrapper">
+                        <img src="images/backrooms.jpg" alt="Escape the Backrooms" onerror="this.src='https://picsum.photos/400/220?random=5'">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-tag">TERROR / COOPERATIVO</span>
+                        <h3>Escape the Backrooms</h3>
+                        <p>Exploración de espacios liminales, resolución de acertijos y supervivencia cooperativa evitando entidades en niveles laberínticos.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Formulario de Contacto -->
+    <section id="contacto" class="section border-top">
+        <div class="section-container">
+            <h2>03 · CONTACTO</h2>
+            <form id="contact-form" class="contact-form">
+                <input type="text" id="nombre" placeholder="Tu Nombre" required>
+                <input type="email" id="email" placeholder="Tu Correo Electrónico" required>
+                <textarea id="mensaje" rows="4" placeholder="¿Quieres jugar alguna partida o hablar de gaming?" required></textarea>
+                <button type="submit">Enviar Mensaje</button>
+            </form>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+
+    <!-- Pie de Página -->
+    <footer class="footer border-top">
+        <div class="footer-container">
+            <p>&copy; 2026 TheFoxy547. Desarrollado con Inteligencia Artificial para Construcción de Software.</p>
+        </div>
+    </footer>
+    
+</body>
+</html>
